@@ -1,14 +1,16 @@
-li {
-  list-style: none;
+h2{
+  margin-left: 35px;
 }
-
 #lista{
   display: flex;
+  li {
+    list-style: none;
+  }
+  #imgPort {
+    margin: 5px;
+    width: 240px;
+    height: 200x;
+  }
 }
 
-#imgPort {
-  margin: 5px;
-  width: 250px;
-  height: 200x;
-}
 

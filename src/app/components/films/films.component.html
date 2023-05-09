@@ -1,13 +1,30 @@
 
-<h4>TERROR</h4>
+<h2>{{pelis.section[0].category}}</h2>
 <ul id="lista">
-  <li *ngFor="let movie of terror"><img src='{{movie.img}}' id="imgPort"></li>
+  <li *ngFor="let film of pelis.section[0].films"><h3>{{film.title}}</h3><img src='{{film.img}}' id="imgPort"></li>
 </ul>
 
-<h4>COMEDIA</h4>
+<h2>{{pelis.section[1].category}}</h2>
 <ul id="lista">
-  <li *ngFor="let movie of comedia"><img src='{{movie.img}}' id="imgPort"></li>
+  <li *ngFor="let film of pelis.section[1].films"><h3>{{film.title}}</h3><img src='{{film.img}}' id="imgPort"></li>
 </ul>
 
+<h2>{{pelis.section[2].category}}</h2>
+<ul id="lista">
+  <li *ngFor="let film of pelis.section[2].films"><h3>{{film.title}}</h3><img src='{{film.img}}'  id="imgPort"></li>
+</ul> 
 
+<h2>{{pelis.section[3].category}}</h2>
+<ul id="lista">
+  <li *ngFor="let film of pelis.section[3].films"><h3>{{film.title}}</h3><img src='{{film.img}}'  id="imgPort"></li>
+</ul> 
 
+<h2>{{pelis.section[4].category}}</h2>
+<ul id="lista">
+  <li *ngFor="let film of pelis.section[4].films"><h3>{{film.title}}</h3><img src='{{film.img}}'  id="imgPort"></li>
+</ul> 
+
+<h2>{{pelis.section[5].category}}</h2>
+<ul id="lista">
+  <li *ngFor="let film of pelis.section[5].films"><h3>{{film.title}}</h3><img src='{{film.img}}'  id="imgPort"></li>
+</ul> 

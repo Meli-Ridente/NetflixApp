@@ -1,28 +1,30 @@
+#title{
+  margin-left: 50px;
+}
+
 #lista{
   display: flex;
   width: 90%;
+  #imgTop{
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+  }
+  #imgPort {
+    margin-top: 20px;
+    width: 200;
+    height: 200px;
+  }
+  #imgPort:hover{
+    transform: translateY(-20px);
+  }
+  li{
+    display: flex;
+    list-style: none;
+    width: 250px;
+  }
 }
 
-#imgTop{
-  overflow: hidden;
-  position: relative;
-  align-self: center;
-  width: 150px;
-  height: 150px;
-}
 
-#imgPort {
-  margin-top: 20px;
-  width: 200;
-  height: 200px;
-}
-
-#imgPort:hover{
-  transform: translateY(-20px);
-}
-
-li{
-  display: flex;
-  list-style: none;
-  width: 250px;
-}

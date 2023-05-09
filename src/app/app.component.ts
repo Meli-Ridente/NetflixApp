@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { filmsInterface } from './models/films.interface';
+import { Component, Input} from '@angular/core';
+// import { filmsInterface } from './models/films.interface';
+import { Top10Interface } from './models/top10.interface';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,14 +9,8 @@ import { filmsInterface } from './models/films.interface';
 })
 export class AppComponent {
   title = 'NetflixApp';
-  // comedyFilms: filmsInterface;
+  @Input() top10: Top10Interface = {imgTop:'', img:''};
+  
   constructor(){
-    // this.comedyFilms = {
-    //   section: 'Comedia',
-    //   films: {
-    //     title: 'Casi 300',
-    //     image: '/assets/Comedia/casi300.webp'
-    //   }
-    // }
   }
 }

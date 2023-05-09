@@ -1,21 +1,84 @@
 
-*{
-  margin: 0px;
-}
-
-li {
-  list-style: none;
-  margin: 0px 15px;
-}
-
 .container{
-  display: grid;
-  grid-auto-flow: column;
-  margin: 20px;
+  position: absolute;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+  .header{
+    display: flex;
+    align-items: center;
+  }
+  .list{
+    font-size: 19px;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: light;
+    display: flex;
+    flex-direction: row;
+  }
+  li {
+    list-style: none;
+    margin: 0px 15px;
+  }
+  .container2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    .icons{
+      display: flex;
+      align-items: center;
+      img{
+        margin-left: 20px;
+      }
+    }
+  }
 }
 
-.container2{
+.image{
+  margin: 0;
+  width: 100%;
+  height: 850uvh;
+}
+
+.description{
+  padding: 50px;
+  top: 50%;
+  width: 30%;
+  font-size: 23px;
+  position: absolute;
+}
+
+.title{
+  padding: 35px;
+  top: 30%;
+  letter-spacing: 15px;
+  font-size: 100px;
+  position: absolute;
+}
+
+.button{
+  padding: 20px;
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.button2{
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.37);
+  border: none;
+  padding: 20px;
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
 }
